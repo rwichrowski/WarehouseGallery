@@ -1,0 +1,54 @@
+# Foldery IDE
+.vscode/
+.idea/
+
+# Pliki u¿ytkownika Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Wyniki kompilacji
+bin/
+obj/
+out/
+
+# Pliki publikacji
+publish/
+*.pubxml
+*.pfx
+
+# Logi
+*.log
+
+# Pliki tymczasowe
+*.tmp
+*.temp
+
+# Paczki NuGet
+*.nupkg
+.nuget/
+packages/
+*.snupkg
+
+# Wyniki testów
+TestResults/
+*.coverage
+*.coveragexml
+
+# Pliki systemowe Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pliki systemowe macOS/Linux
+.DS_Store
+*.swp
+*.bak
+
+# Sekrety u¿ytkownika i konfiguracje lokalne
+appsettings.*.local.json
+secrets.json
+
+# Foldery generowane przez aplikacjê (np. uploady)
+wwwroot/uploads/

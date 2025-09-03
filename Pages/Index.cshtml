@@ -1,0 +1,13 @@
+@page
+@model IndexModel
+
+<h2>Galeria zdjêæ</h2>
+<div>
+    @foreach (var photo in Model.Photos)
+    {
+        <div>
+            <img src="/uploads/@photo.FileName" alt="@photo.Description" width="200" />
+            <p>@photo.Description</p>
+        </div>
+    }
+</div>
