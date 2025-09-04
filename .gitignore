@@ -1,6 +1,7 @@
 # Foldery IDE
 .vscode/
 .idea/
+.vs/
 
 # Pliki u¿ytkownika Visual Studio
 *.user
