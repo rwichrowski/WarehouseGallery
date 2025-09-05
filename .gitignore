@@ -53,3 +53,5 @@ secrets.json
 
 # Foldery generowane przez aplikacjê (np. uploady)
 wwwroot/uploads/
+
+gallery.db
